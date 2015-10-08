@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Jekyll! This is an example post"
 date:   2015-10-07 18:45:48
-categories: jekyll update
+permalink: "example"
+# published: false # uncomment this to hide the page
+# author: "Wesley" # Default sets this no matter what
+meta: "Getting started with Jekyll"
+tags: "jekyll, update"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
