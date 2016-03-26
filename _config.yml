@@ -9,8 +9,7 @@
 title: Wesley Abbey
 mail: wesleyabbey.io@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the current webpage for Wesley Abbey. He is currently taking his sweet time to actually get this site an actual design and legitamate layout.
-  He will, hopefully be fixing this very soon.
+  I'm Wesley! By night I'm Batman, but when I'm not fighting crime I'm a developer at Wayfair in Boston.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.wesleyabbey.com" # the base hostname & protocol for your site
 twitter_username: wesleyabbey 
