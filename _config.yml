@@ -1,17 +1,19 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Wesley Abbey
+bio: I'm Batman, but when I'm not fighting crime I'm probably programming or doing a handstand
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Restless Developer
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
 
-url: https://koppl.in/indigo
-# your url: http://USERNAME.github.io
+url: http://www.wesleyabbey.com
+blogurl: http://blog.wesleyabbey.com
+
+# your url: http://wesleyabbey.github.io
 
 permalink: /:title/
 
@@ -26,29 +28,29 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: wesleyabbey
+twitter: wesleyabbey
 # google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-stackoverflow: 7044681/mystackoverflow
-quora: userquora
-reddit: username
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+instagram: wesleyabbey.io
+# pinterest: wesleyabbey
+linkedin: wesleyabbey
+# youtube: myyoutube
+# spotify: myspotify
+github: wesleyabbey
+stackoverflow: 3330086/wesleyabbey
+quora: Wesley-Abbey
+# reddit: username
+medium: wesleyabbey
+# vimeo: myvimeo
+email: wesley@wesleyabbey.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    wesleyabbey:
+        name: Wesley Abbey
+        bio: I'm Batman, but when I'm not fighting crime I'm probably programming or doing a handstand
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
@@ -62,14 +64,14 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: false
