@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/layout.module.css"],"names":["module","exports","link"],"mappings":"+IACAA,EAAAC,QAAA,CAAkBC,KAAA","file":"styles-706d67b5ec1df71abb1e.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"link\":\"layout-module--link--9VMjY\"};"],"sourceRoot":""}

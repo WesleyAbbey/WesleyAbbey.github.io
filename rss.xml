@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Wesley Abbey]]></title><description><![CDATA[Wesley Abbey's blog]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 21 Mar 2019 15:16:55 GMT</lastBuildDate><item><title><![CDATA[Benefits of Functional Programming]]></title><description><![CDATA[You should learn  functional programming Exposure to functional ideas and patterns will make you a better developer. Your software will…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//benefits-of-functional-programming/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//benefits-of-functional-programming/</guid><pubDate>Tue, 02 May 2017 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5d54b5ad2399204b5055b486c3308d86/c9fb3/laying_bricks.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.74222529371112%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFlCcqddCQhH//EABkQAAIDAQAAAAAAAAAAAAAAAAEDAhASIv/aAAgBAQABBQINZpLdU7gRr//EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAgBAwEBPwGVl//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/Aar/xAAZEAEAAgMAAAAAAAAAAAAAAAABEBEAAiH/2gAIAQEABj8Cq1ymA15P/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFBUXH/2gAIAQEAAT8hBoH5KXBDqyz3CCNYvmaolT//2gAMAwEAAgADAAAAEAjP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFR/9oACAEDAQE/EFGv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAgEBPxBQXh//xAAeEAEAAgIBBQAAAAAAAAAAAAABABEhMUFRcYHw8f/aAAgBAQABPxAxVXCCAPTCU+3BiwPmDWDQbHdiu4U/JkbSsYn/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Brick Laying&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5d54b5ad2399204b5055b486c3308d86/f8fb9/laying_bricks.jpeg&quot;
+        srcset=&quot;/static/5d54b5ad2399204b5055b486c3308d86/e8976/laying_bricks.jpeg 148w,
+/static/5d54b5ad2399204b5055b486c3308d86/63df2/laying_bricks.jpeg 295w,
+/static/5d54b5ad2399204b5055b486c3308d86/f8fb9/laying_bricks.jpeg 590w,
+/static/5d54b5ad2399204b5055b486c3308d86/85e3d/laying_bricks.jpeg 885w,
+/static/5d54b5ad2399204b5055b486c3308d86/d1924/laying_bricks.jpeg 1180w,
+/static/5d54b5ad2399204b5055b486c3308d86/c9fb3/laying_bricks.jpeg 1447w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;You should learn &lt;em&gt;functional programming&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Exposure to functional ideas and patterns will make you a better developer. Your software will become more intuitive, easier to understand, and typically much more concise. Combining this with functional purity and immutability will also help you write fewer bugs. You’ll end up with software that is easier to understand, with infrequent bugs, and quicker to write.&lt;/p&gt;
+&lt;h3&gt;You don’t need to write in a functional language&lt;/h3&gt;
+&lt;p&gt;You should learn functional patterns and practices even if your codebase is not actually written in a functional language. Most modern languages treat functions as first class citizens, so although you might not write in a functional language you can take the ideas expressed here and still apply them right away.&lt;/p&gt;
+&lt;h2&gt;Benefits&lt;/h2&gt;
+&lt;h3&gt;Purity&lt;/h3&gt;
+&lt;p&gt;Functional programming has no side effects. This means if you give a function the same input parameters, it will always give you the same output &lt;em&gt;no matter what&lt;/em&gt;. A simple example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The above addition function is simple but it is &lt;strong&gt;pure&lt;/strong&gt;. No matter what you give it as parameters you will always get the same result. &lt;code class=&quot;language-text&quot;&gt;add(2,2)&lt;/code&gt; is always going to return 4. Lets contrast this with an &lt;strong&gt;impure&lt;/strong&gt; function.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; sum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;  &lt;span class=&quot;token function&quot;&gt;dropProductionDatabase&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; sum
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This is &lt;strong&gt;impure&lt;/strong&gt;. This function changes something that exists outside the scope of the function. We don’t want to drop our database every time we call the add function. This is an extreme example but this gets the point across. Large software applications become hard to keep track of and mistakes can happen. Purity can make it a lot easier to keep track of your code and the changes everyone is making.&lt;/p&gt;
+&lt;p&gt;You can immediately start writing software with this concept in mind. You’ll start to see this will not only introduce fewer bugs into your code, but it can also help improve your general workflow.&lt;/p&gt;
+&lt;h3&gt;Brevity&lt;/h3&gt;
+&lt;p&gt;A beautiful consequence of writing functionally is it forces you &lt;strong&gt;write programs that are easier to understand&lt;/strong&gt;. You’re forced to write &lt;em&gt;declaratively&lt;/em&gt; which is typically a lot easier to read and comprehend than &lt;em&gt;imperatively&lt;/em&gt; written code.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Declarative Example:&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;square&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;val &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; val &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; val&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Imperative Example:&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;square&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; results &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    results&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; results
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In the examples above we can see some obvious differences in our implementations. We are describing &lt;em&gt;how&lt;/em&gt; we should be doing something in the imperative implementation vs. &lt;em&gt;what&lt;/em&gt; we should be doing in the declarative one. This is what makes functional programming easier to read and understand.&lt;/p&gt;
+&lt;p&gt;The declarative &lt;code class=&quot;language-text&quot;&gt;square&lt;/code&gt; function is pretty easy to read. You’re mapping over an array and returning the square of every value. In the imperative example you’re explicitly laying out all the steps. You have to create a new return array, loop through all your values, and push a new value into your array for every value you encounter.&lt;/p&gt;
+&lt;h3&gt;Abstraction&lt;/h3&gt;
+&lt;p&gt;A developer’s ability to abstract out problems into understandable parts and components is incredibly important. Not only does it allow for creating software quickly but it enables other readers to understand what was written. Future maintainers will be incredibly grateful because you’ll save them time and headaches.&lt;/p&gt;
+&lt;p&gt;Very powerful patterns also emerge from functional programming, such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Higher-order_function&quot; target=&quot;_blank&quot;&gt;higher-order functions&lt;/a&gt;, which allow you to further abstract out your code. Higher-order functions, take a function as input and returns another function as a result. The &lt;code class=&quot;language-text&quot;&gt;map&lt;/code&gt; function is a great example.&lt;/p&gt;
+&lt;h3&gt;Comprehension&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/22b6b0b4753978e9662b291f318a7e58/9b0e7/i-dont-know-why.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAb2lWXQFmRANwH//xAAdEAABAwUBAAAAAAAAAAAAAAACAQQRAAMSEzIz/9oACAEBAAEFAnixeyGB5dIm/WFDy7HJwsoFvz//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAABBAEFAAAAAAAAAAAAAAAAAQIRITIDIjFRcf/aAAgBAQAGPwJlxQ1YyEGT0WtCGmkxtU5xShvh/8QAHBAAAgMAAwEAAAAAAAAAAAAAAREAITFBYXGB/9oACAEBAAE/Ie3E3hUeCBRrqGzh5zDC2ANiJRQVaogRilyOQIYFlS+Tx1n/2gAMAwEAAgADAAAAEFDHAP/EABYRAAMAAAAAAAAAAAAAAAAAABEgIf/aAAgBAwEBPxChP//EABYRAAMAAAAAAAAAAAAAAAAAAAERIP/aAAgBAgEBPxAqP//EAB0QAQEAAgMAAwAAAAAAAAAAAAERACExQVFxocH/2gAIAQEAAT8QGs6KuRY/eaUgJAdLXAAASgN8d4VdKBWUr8GJmBAZoTpvmAFUAG2k97wmO0MeZ+5BXUI60OcYoAHScGjP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;My code is broken &amp; I don&apos;t know why&quot;
+        title=&quot;&quot;
+        src=&quot;/static/22b6b0b4753978e9662b291f318a7e58/f8fb9/i-dont-know-why.jpeg&quot;
+        srcset=&quot;/static/22b6b0b4753978e9662b291f318a7e58/e8976/i-dont-know-why.jpeg 148w,
+/static/22b6b0b4753978e9662b291f318a7e58/63df2/i-dont-know-why.jpeg 295w,
+/static/22b6b0b4753978e9662b291f318a7e58/f8fb9/i-dont-know-why.jpeg 590w,
+/static/22b6b0b4753978e9662b291f318a7e58/9b0e7/i-dont-know-why.jpeg 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Bug hunting is a part of every programmer’s daily life. &lt;strong&gt;Mutations make bugs harder to squash&lt;/strong&gt;. Pure functions give you greater confidence in what your code is actually doing and prevent you from worrying about side effects you may otherwise have been unaware of. Because of this, searching for bugs becomes easier and much more straight forward. Due to the declarative style of writing, you’re programs are also shorter, which itself allows for easier comprehension.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://redux.js.org/&quot; target=&quot;_blank&quot;&gt;Redux&lt;/a&gt;, is a beautiful functional framework used to build large complicated applications. Redux itself is small. It does not consist of a lot of code — you could sit down and read through it in an afternoon. The creator of Redux even has &lt;a href=&quot;https://egghead.io/lessons/react-redux-implementing-store-from-scratch&quot; target=&quot;_blank&quot;&gt;videos where he builds out the core functionality of Redux&lt;/a&gt; in front of you in only a couple of minutes (This blog takes heavy inspiration from him). There is no “magic” in his framework. The Redux framework is simple and pure, and implementation details aren’t hidden from the programmer.&lt;/p&gt;
+&lt;h3&gt;Happiness, Confidence, &amp;#x26; Bugs&lt;/h3&gt;
+&lt;p&gt;A function will always return the same output from a given input with no exceptions. I can’t emphasize enough how powerful this removal of side-effects is for your software.&lt;/p&gt;
+&lt;p&gt;Purity removes so many bugs that are found in imperative programs. It’s arguable that &lt;em&gt;most&lt;/em&gt; bugs in large software applications can be traced back to side-effects.&lt;/p&gt;
+&lt;p&gt;Functional programming allows developers to write fewer bugs, to write less code, and to have more confidence that their programs are sound and correct. Combined, all of these result in huge improvements to not only your productivity but also your overall happiness.&lt;/p&gt;
+&lt;h3&gt;Issues&lt;/h3&gt;
+&lt;p&gt;Functional programming uses up a lot of memory and you can end up in scenarios where your program would run slower than if was implemented imperatively.&lt;/p&gt;
+&lt;p&gt;For example, an imperative implementation of Quicksort is pretty fast and it can be completed in place with little extra memory footprint. However, a functional implementation of this would take up a lot more memory and run somewhat slower. So in the event where performance is vital to your program an imperative solution would be the better option. But, thanks to modern machines this is rarely an issue most people have to deal with anymore.&lt;/p&gt;
+&lt;h3&gt;Who Cares?&lt;/h3&gt;
+&lt;p&gt;WhatsApp was recently bought by Facebook for &lt;strong&gt;19 billion dollars&lt;/strong&gt;. They run all of their software off of Erlang, a functional programming language. Paul Graham’s &lt;a href=&quot;http://www.paulgraham.com/avg.html&quot; target=&quot;_blank&quot;&gt;Beating the Odds&lt;/a&gt; essay goes in depth of how the use of a functional programming language helped his startup become more successful than all their competitors. They used a language called &lt;strong&gt;Lisp.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lisp is worth learning for the profound enlightenment experience you will have when you finally get it; that experience will make you a better programmer for the rest of your days, even if you never actually use Lisp itself a lot.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is meant to be a primer for anyone who may have been interested in functional programming or just wanted more information. There is a completely different and beautiful world out there and I hope this is has motivated you to go out and explore it!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ignore Files without using .gitignore]]></title><description><![CDATA[Problem I discovered a cool aspect about git while writing some scripts today. I had written a bunch of a scripts for myself and wanted to…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//ignore-files-without-gitignore/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//ignore-files-without-gitignore/</guid><pubDate>Mon, 24 Apr 2017 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c9aa47439f08e219fd86830e90cca0af/c1266/git.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHk3myBB//EABYQAQEBAAAAAAAAAAAAAAAAAAEQAP/aAAgBAQABBQIyQv8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAFxABAQEBAAAAAAAAAAAAAAAAAQAQMf/aAAgBAQABPyERHEZwzf/aAAwDAQACAAMAAAAQM8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhMUFh/9oACAEBAAE/EFOE2A1c8+CaNgznTo//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Git&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c9aa47439f08e219fd86830e90cca0af/f8fb9/git.jpeg&quot;
+        srcset=&quot;/static/c9aa47439f08e219fd86830e90cca0af/e8976/git.jpeg 148w,
+/static/c9aa47439f08e219fd86830e90cca0af/63df2/git.jpeg 295w,
+/static/c9aa47439f08e219fd86830e90cca0af/f8fb9/git.jpeg 590w,
+/static/c9aa47439f08e219fd86830e90cca0af/85e3d/git.jpeg 885w,
+/static/c9aa47439f08e219fd86830e90cca0af/d1924/git.jpeg 1180w,
+/static/c9aa47439f08e219fd86830e90cca0af/c1266/git.jpeg 1200w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;p&gt;I discovered a cool aspect about git while writing some scripts today. I had written a bunch of a scripts for myself and wanted to keep. However, I didn’t want to push them, I just wanted to keep them locally. I also didn’t want to add a bunch of random personal file paths into the &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;This is likely to happen to any developer. You could have written some test or automation scripts that you want to keep around but wouldn’t necessarily want to commit directly into a shared repository.&lt;/p&gt;
+&lt;p&gt;You also wouldn’t want to pollute your &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; file with paths to files only you have access to. This could end up leading to confusion among your current or future colleagues.&lt;/p&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Thankfully git offers a simple solution to getting around this issue through the use of the &lt;code class=&quot;language-text&quot;&gt;.git/info/excludes&lt;/code&gt; file.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;.git/info/excludes&lt;/code&gt; file works the same exact way as your &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; file except it isn’t tracked by git and exists only within your local repo. This is perfect if you want to prevent git from tracking personal files/directories without changing your &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; file.&lt;/p&gt;
+&lt;h2&gt;Final note&lt;/h2&gt;
+&lt;p&gt;If you haven’t had the chance to delve into the &lt;code class=&quot;language-text&quot;&gt;.git&lt;/code&gt; directory yet, you should peak around. This is the source for all of git’s magic and if you take the time to look through this directory you’ll come out with a better understanding of &lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Internals-Git-Objects&quot; target=&quot;_blank&quot;&gt;Git’s plumbing&lt;/a&gt; and how it actually works. This could save you from a bunch of wasted time and needless frustration in the future.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/892a2bd9ce0c9c293a620679d1067910/4cb19/xkcd-git.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 330px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 144.84848484848484%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAdCAIAAAAl5NuSAAAACXBIWXMAAAsSAAALEgHS3X78AAADOElEQVQ4y3XU1VZjUQwG4D42t7wM7u5OKbZwGGRgcHfXzsdJp6UsJhdn5ST549mpdDq9s7Ozvb29tbX1O6G1tbX19fU/CRHmGar4ZR/C1MHBwcrKSkdHx+rq6sTExObmJove3t7BwcGpqanx8fHZ2dm+vr6mpqaenp5MJjM/P19TU7OxsZHNZlPcTE9Pt7S0tLW19ff3U7MeGRmpqqrq7u4eGxsbHR2tqKighR8eHr6/v7+8vLy7u/sES5ioLaHKykpeABoaGrgXPAJSlZWVSae9vZ0WGPLj4+MTrMJ0QvL8lZBoKjw9PWW6tLR0dXUl2+PjYxUpQVOyCX2Cww3CXF9fX1xcYFiL7FchnPrVEd0hFGxycvL9/b0ADmeCPD4+YsTZ399/eHjQUfzJyYn2np2d+R4dHZ2fn39GlsnCwoKuSlWeHEs1kxDeV/+7urrm5uZ2d3eVzYaLp6enXNoUzc3Nra2tyuZCVXzpEwxrkoGBASrfoaEh7uSSA0tjcXHRnPVcq9VWV1cnJgxen6kwYNzhGUs7B5aVtA1WD+hkIQVzMhWS6upqXy4IZVRbW3t4eKj+AtgweBW5s7OTRayNhRFQkrQShleCdr68vOzt7eXmzFTB9kmF9fX1+MbGRtaykH/wVPYR7PX1VeTb29sC2MZxGXsXE7pPiBHJzc0N5u3tDQCj59l/9MOSGMbXyef55+dn3RX8v2BxAmyBssXE0s58lXzfMCSxr8hQWQxNzocJYRE4vgozAsP8KtfhfNnB/AyOhvmqP4xssr5ijK2kpKS0tFTPf6gZ6UoApIqx/B4ZU7CVjLXNeRned3Dgw07l0Vi+tNAxwsScYqIFMLIGsXS+1lCEkCtScOsJSWV/4wErAi8vL7tkw2BkNyOsX/lTuaowc7Buo/AMxRtgty1peXk5tauKc/eqcGTnHU+AmWlBEdjXbJiqR2IeUO4krGC3IXJEi8iRdgGcP1EUj75hSNVtmFk8faHFFK4qpNprqlGnyJbEnBymY2bEXfRZU/hlTGhVUuFGkobhy8jTKwu5QM7MzFhVT7x7xPAOb4ViyVKeAQ3QD3bwHgB8FGmf/GLISfzilxNaSugv48n6HDX85psAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;XKCD Git&quot;
+        title=&quot;&quot;
+        src=&quot;/static/892a2bd9ce0c9c293a620679d1067910/4cb19/xkcd-git.png&quot;
+        srcset=&quot;/static/892a2bd9ce0c9c293a620679d1067910/deffc/xkcd-git.png 148w,
+/static/892a2bd9ce0c9c293a620679d1067910/cf477/xkcd-git.png 295w,
+/static/892a2bd9ce0c9c293a620679d1067910/4cb19/xkcd-git.png 330w&quot;
+        sizes=&quot;(max-width: 330px) 100vw, 330px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Redesigning the US Dollar]]></title><description><![CDATA[It has been announced that the United States is going put a woman on the dollar,
+replacing Alexander Hamilton by 2020 Many people have…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//redesigning-the-us-dollar/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//redesigning-the-us-dollar/</guid><pubDate>Fri, 26 Aug 2016 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fdb0efe01ec95fdf45928f13c5966552/a402e/joker-burning-money.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 42.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFCtCdjSoYAX//EABoQAQADAAMAAAAAAAAAAAAAAAIAARIDMTP/2gAIAQEAAQUC4s0gSgdy/Qdz/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABcRAAMBAAAAAAAAAAAAAAAAAAECEEH/2gAIAQIBAT8BcbP/xAAcEAABAwUAAAAAAAAAAAAAAAABABARISJRYXH/2gAIAQEABj8CuE6XUYIFcMG//8QAHBABAAEEAwAAAAAAAAAAAAAAAQARMUFRIXGh/9oACAEBAAE/IW8rQ42YWtlSmpjgKL/c8LCf/9oADAMBAAIAAwAAABD7D//EABcRAAMBAAAAAAAAAAAAAAAAAAABMUH/2gAIAQMBAT8QfB0//8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EEyYl//EABwQAAIBBQEAAAAAAAAAAAAAAAERACExYYHwUf/aAAgBAQABPxAFN0hjRiMsAVIENFYBIOJN2NTuxOz5LNz/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Joker Burning Money&quot;
+        title=&quot;&quot;
+        src=&quot;/static/fdb0efe01ec95fdf45928f13c5966552/f8fb9/joker-burning-money.jpeg&quot;
+        srcset=&quot;/static/fdb0efe01ec95fdf45928f13c5966552/e8976/joker-burning-money.jpeg 148w,
+/static/fdb0efe01ec95fdf45928f13c5966552/63df2/joker-burning-money.jpeg 295w,
+/static/fdb0efe01ec95fdf45928f13c5966552/f8fb9/joker-burning-money.jpeg 590w,
+/static/fdb0efe01ec95fdf45928f13c5966552/85e3d/joker-burning-money.jpeg 885w,
+/static/fdb0efe01ec95fdf45928f13c5966552/a402e/joker-burning-money.jpeg 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It has been announced that the United States is going put a woman on the dollar,
+replacing Alexander Hamilton by 2020&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Many people have praised this recent announcement as a wonderfully progressive action while there have been some that have been calling this an attack on some of the nations oldest traditions. &lt;em&gt;Well, I’m not here to talk about any of that.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This story has simply given me an opportunity to be reminded of why the American dollar actually sucks. Not in the sense that there are only men represented on the bills, but in the sense that &lt;strong&gt;the design of the dollar bill is horrendous.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The US dollar needs an upgrade&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I would like to take a moment attempt to convince everyone the design of United States currency is horrible and it should actually be changed even further than just making a female as one of the face on one of the bills. &lt;strong&gt;So, here is a list of all the things that should also be changed on the American dollar.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;1. Colors&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Having one color doesn’t really serve any purpose when you think about it.&lt;/strong&gt; Imagine your wallet is full of cash and you want to pay for an order. You have a large number of different bills, but you are looking for very specific denominations. This is a somewhat frustrating process to deal with, but with a simple change of colors you would be capable of finding exactly what type of bill you happened to need a lot easier. It would be a lot nicer to know that a blue bill is a 5 and a red bill is a 50.&lt;/p&gt;
+&lt;p&gt;Look at the Canadian bills:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/030dc6c75e51b360ed667c1d0e4522eb/d2957/canadian-bills.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 411px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 72.26277372262774%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAADzUlEQVQ4y23O609aBxjHcTb31mR/0f6AvW22F1uytGvarTVtt2JW6+YdBT1ya0EUAUE43A5wAEEPchE43O+CKBXFOc2YNN2aLFnizsHfUpf4pn3ePHlefD95BHtJM7qnR3h7UUedtcOtGkdqfQhh9QjY0BZXdomxH3/hPfCs2t/ulfH6qMa1/avYW1m6Sgw/QGRMeNVg2avCi8WrunwEglJEy4eoNZ4N2vg8peEpySO+SY/whzEjf9o+vUwaRtGMLXpqLpWtsiRDQau+PA5Y+Zpklg8M3eZrVlX/pHNylRFP81Xpj7zgOGVFQDuBbasSGb8e29QKXKqHOGYN2Cul4BfdQ949w5wxTs/+3M/ITD9HQTmHxMIENF98DnZxEo1KApGfhlEfewTBhnlUyjjHpNFtmTQSkkmraZU0tymS2hVDUrVyihi7/5nGs/bgdolYelwQi+myXmOOvyTIiI4gi6SGdD4ZJhnSolj+8o4xKXxmFSynNV0ya+mG6lTXkdN3XWl1l86IunL3eNfkVpxLgtP/2KrLRlpf0brtucvwTqNrsWd7Thvb00k2e8+/Xem5nMrXxKT5wmUs9wTRMoXqQQ2FdhSrEQ3UWxrYt0ZBbyxg0+dAqGFGLK8JxOkqddI+x6vDY8yMkQi4UzDMe2AaJxH1OhB2xFHy1SAIZawcWXRznrSR07slnNq9wG2Fx/lKk+ZbneNLKreMnYyKZjd2bTZTFqFg/tJn3OQdapovB1NcI1Tlur0/OUoX5lhHjhO4d63QlXRwVayY80sxShNQBGaQblgRjfkhZ0QwxOeCSVfTRRlK8FI50I4IaDsLnyWLTROL0m4JxKgddmUCAiK6IDRn1UIqrxeaorqnJLM0bAzq54l1QiZ6uUD8YHiqlkdFDw3K8H3tEqOyehKEWOGVOR1psdcQFk5+vyTUqnXCx1/LhYpfAkLBh2be3gqp6fav3tLvLXX2uLVWOeyMBHydr6bErfC24eDurOt8melYPhhLQqKBlaR0wJ4xf/LurnasnzrSpbNXZ2/QefMXJsIH0JX/gDyWg1hlQCEcxGpsF55iroiEYuDOLf3Ha2bLwL1b8wPSZ96BG5iubH/0buszisGNSvFwPXOG5skFpw3k+mKm2beWi/1Qfbff2Gv/O+/ZgaMYY8H837qKzPufxnbb12D379NBMrZ/JPYdwsnu94UKE6b8ZXxnDEC7EQEbZvhvZkzQMsUUgOu20vntfXDGUr8GF10Hg+Om6pE+3IEp2eob4iW4K3lQ9TyeEGuwkSR/d9YBmefgBvRmzm6c/wDf6cYgI/iMPAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Canadian Bills&quot;
+        title=&quot;&quot;
+        src=&quot;/static/030dc6c75e51b360ed667c1d0e4522eb/d2957/canadian-bills.png&quot;
+        srcset=&quot;/static/030dc6c75e51b360ed667c1d0e4522eb/8d6a8/canadian-bills.png 148w,
+/static/030dc6c75e51b360ed667c1d0e4522eb/365df/canadian-bills.png 295w,
+/static/030dc6c75e51b360ed667c1d0e4522eb/d2957/canadian-bills.png 411w&quot;
+        sizes=&quot;(max-width: 411px) 100vw, 411px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;!-- _Colors help us differentiate our bills_ --&gt;
+&lt;p&gt;or even the Australian bills:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/59446c1f02d1230a2b9b7b5af3c46900/18429/australian-bills.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.04835589941973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABYBAQEBAAAAAAAAAAAAAAAAAAMBAv/aAAwDAQACEAMQAAAB3SqaJYMaP//EABsQAAICAwEAAAAAAAAAAAAAAAEDAAIREiIh/9oACAEBAAEFAsk2JMTfhq/dbRa+f//EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAEDAQE/Aaf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAIAQIBAT8BjH//xAAZEAEAAgMAAAAAAAAAAAAAAAAAATEQIkH/2gAIAQEABj8CnHWqlv/EABsQAAICAwEAAAAAAAAAAAAAAAERACExUXGB/9oACAEBAAE/IScli9yuicbgwpYuGNHkIQsOwqtHc//aAAwDAQACAAMAAAAQb9//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAEDAQE/ENFpPb//xAAXEQEBAQEAAAAAAAAAAAAAAAABEQAh/9oACAECAQE/EJIaDhv/xAAfEAEBAAIBBAMAAAAAAAAAAAABEQAhcTFBUWGx0fD/2gAIAQEAAT8QfklbEXjCokNqvn85FIFtb4xipqdepzc76Xp94J6BRLM//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Australian Bills&quot;
+        title=&quot;&quot;
+        src=&quot;/static/59446c1f02d1230a2b9b7b5af3c46900/f8fb9/australian-bills.jpeg&quot;
+        srcset=&quot;/static/59446c1f02d1230a2b9b7b5af3c46900/e8976/australian-bills.jpeg 148w,
+/static/59446c1f02d1230a2b9b7b5af3c46900/63df2/australian-bills.jpeg 295w,
+/static/59446c1f02d1230a2b9b7b5af3c46900/f8fb9/australian-bills.jpeg 590w,
+/static/59446c1f02d1230a2b9b7b5af3c46900/85e3d/australian-bills.jpeg 885w,
+/static/59446c1f02d1230a2b9b7b5af3c46900/18429/australian-bills.jpeg 1034w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;2. Size&lt;/h2&gt;
+&lt;p&gt;This simple change would allow for easy &lt;strong&gt;sorting of bills&lt;/strong&gt;. Not only that, but the United States as a nation would actually help the &lt;strong&gt;blind&lt;/strong&gt;. Currently, the blind have no way of telling apart any of their bills when they are making a transaction. They have to simply trust that the people that are handing them their money aren’t swindling them. One argument against the change of size could be the issues it has when you’re dealing with vending machines occasionally, but if that was the case then it’s really easy to just add one change.&lt;/p&gt;
+&lt;h2&gt;3. Braille&lt;/h2&gt;
+&lt;p&gt;While different sizes could be a pretty drastic change that would be somewhat hard to implement without large scale ramifications across many different industries, braille would not be nearly as drastic. &lt;strong&gt;Not only that but we wouldn’t be outcasting all of the blind with our decision either.&lt;/strong&gt; Looking back at the above pictures, Canada has adopted a braille system on their bills while Australia actually has different size bills.&lt;/p&gt;
+&lt;h2&gt;4. Durability&lt;/h2&gt;
+&lt;p&gt;It’s a pretty stone-age issue to deal with when I have to check my jeans every time I put them in the washer. If I wash a twenty dollar bill, there is a decent chance that it can get completely destroyed. Canadians actually test for counterfeit bills by attempting to rip the bills that are given to them. &lt;strong&gt;You can’t rip up a Canadian or Australian bill&lt;/strong&gt;. It is so durable that it has no issue with getting torn to shreds in your washing machine because it’s actually made of a very powerful polymer. Not only does this prevent destruction, it also has a smaller environmental impact because they last so much longer.&lt;/p&gt;
+&lt;h2&gt;5. Design&lt;/h2&gt;
+&lt;p&gt;Finally the United States bill is simply designed horribly. It has no coherent font family, distasteful filigree, and extensive insignias and symbols strewn about the whole bill. It’s horrendous and, by my count, the final nail in the horrific design coffin that is the United States bill.&lt;/p&gt;
+&lt;hr/&gt;
+&lt;p&gt;After taking in a couple of these points, hopefully you can go on and realize those bills in your pocket just look awful. Maybe as we move through the future we can continue to make small incremental changes to the currency (such as changing the face on one of the bills)! Hopefully, one day down the road we will end up with beautiful bills that everyone is actually capable of using.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fa00fd5c467f280354af7d11596c8e38/4990f/piggy-bank.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.65384615384615%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHvRpAsYn//xAAZEAADAAMAAAAAAAAAAAAAAAABAhAAERL/2gAIAQEAAQUCwnVZep//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERMRD/2gAIAQEAAT8hgvfURXhD/9oADAMBAAIAAwAAABBLz//EABYRAQEBAAAAAAAAAAAAAAAAABEQIf/aAAgBAwEBPxAOz//EABcRAAMBAAAAAAAAAAAAAAAAAAEQESH/2gAIAQIBAT8QNmL/xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMUEQ/9oACAEBAAE/ECNSUrkCwa35nAWvHYUNs//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Piggy Bank&quot;
+        title=&quot;&quot;
+        src=&quot;/static/fa00fd5c467f280354af7d11596c8e38/f8fb9/piggy-bank.jpeg&quot;
+        srcset=&quot;/static/fa00fd5c467f280354af7d11596c8e38/e8976/piggy-bank.jpeg 148w,
+/static/fa00fd5c467f280354af7d11596c8e38/63df2/piggy-bank.jpeg 295w,
+/static/fa00fd5c467f280354af7d11596c8e38/f8fb9/piggy-bank.jpeg 590w,
+/static/fa00fd5c467f280354af7d11596c8e38/85e3d/piggy-bank.jpeg 885w,
+/static/fa00fd5c467f280354af7d11596c8e38/d1924/piggy-bank.jpeg 1180w,
+/static/fa00fd5c467f280354af7d11596c8e38/9452e/piggy-bank.jpeg 1770w,
+/static/fa00fd5c467f280354af7d11596c8e38/4990f/piggy-bank.jpeg 2600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item></channel></rss>
